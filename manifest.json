@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "WeBlock",
+    "description": "Block websites that you want.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    },
+    "icons":{
+        "16" : "icon.png",
+        "48" : "icon.png",
+        "128" : "icon.png"    
+    },
+    "background":{
+        "service_worker" : "background.js"
+    },
+    "permissions" : [
+        "storage",
+        "declarativeNetRequest"
+    ]
+
+  }
