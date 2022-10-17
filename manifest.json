@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "WeBlock",
     "description": "Block websites that you want.",
-    "version": "1.0",
+    "version": "1.0.1",
     "action": {
       "default_popup": "index.html",
       "default_icon": "icon.png"
@@ -15,8 +15,8 @@
         }]
     },
     "icons":{
-        "16" : "icon.png",
-        "48" : "icon.png",
+        "16" : "icon16.png",
+        "48" : "icon48.png",
         "128" : "icon.png"    
     },
     "background":{
